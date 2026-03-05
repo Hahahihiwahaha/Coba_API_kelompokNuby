@@ -14,19 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Spinner
+        <EditText
             android:id="@+id/etAsal"
             android:hint="Origin Village Code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <Spinner
+        <EditText
             android:id="@+id/etTujuan"
             android:hint="Destination Village Code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <Spinner
+        <EditText
             android:id="@+id/etBerat"
             android:hint="Weight (kg)"
             android:inputType="number"
