@@ -16,8 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText etAsal, etTujuan, etBerat;
-    Spinner spExpedition;
+    Spinner etAsal, etTujuan, etBerat, spExpedition;
     Button btnCek;
     TextView tvHasil;
 
@@ -48,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void cekOngkir() {
 
-        String asal = etAsal.getText().toString();
-        String tujuan = etTujuan.getText().toString();
-        String beratStr = etBerat.getText().toString();
+        String asal = etAsal.getSelectedItem().toString();
+        String tujuan = etTujuan.getSelectedItem().toString();
+        String beratStr = etBerat.getSelectedItem().toString();
         String expedition = spExpedition.getSelectedItem().toString();
 
         if (asal.isEmpty() || tujuan.isEmpty() || beratStr.isEmpty()) {

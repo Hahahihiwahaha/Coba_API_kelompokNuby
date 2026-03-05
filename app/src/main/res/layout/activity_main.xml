@@ -20,13 +20,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <EditText
+        <Spinner
             android:id="@+id/etTujuan"
             android:hint="Destination Village Code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <EditText
+        <Spinner
             android:id="@+id/etBerat"
             android:hint="Weight (kg)"
             android:inputType="number"
